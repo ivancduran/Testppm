@@ -1,10 +1,10 @@
 <?php
 
-namespace testppm;
-/**
- * Concrete class for generating debug dumps related to the output source.
- */
-class Test extends \Phalcon\Mvc\Application
+namespace Testppm;
+
+use Phalcon\Mvc\User\Component;
+
+class Test extends Component
 {
     public function test($test=null){
         return $test.'_Mod';
